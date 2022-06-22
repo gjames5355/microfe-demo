@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": ["./checkout", "./home", "./shared", "./events"],
+  "scripts": {
+    "start": "concurrently \"cd checkout; npm run dev\" \"cd home; npm run dev\" \"cd events; npm run dev\"",
+    "build": "concurrently \"cd checkout; npm run build\" \"cd home; npm run build\" \"cd events; npm run build\"",
+    "serve": "concurrently \"cd checkout; npm run start\" \"cd home; npm run start\" \"cd events; npm run start\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
