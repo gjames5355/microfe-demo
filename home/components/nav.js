@@ -15,14 +15,14 @@ const Nav = () => (
   <nav className={styles.nav}>
     <ul>
       <li>
-        <Link href='/'>
+        <Link href='http://localhost:3001/'>
           <a>Home</a>
         </Link>
-        <Link href='/events'>
+        <Link href='http://localhost:3002/events'>
           <a>Events</a>
         </Link>
-        <Link href='/checkout'>
-          <a>Checkout</a>
+        <Link href='http://localhost:3000/core'>
+          <a>Core</a>
         </Link>
       </li>
       {/* {links.map(({ key, href, label }) => (
