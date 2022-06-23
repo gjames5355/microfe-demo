@@ -14,11 +14,5 @@
     "files": [
       "static/chunks/realPages_events_index_js.js"
     ]
-  },
-  "index.js -> ../realPages/index": {
-    "id": "index.js -> ../realPages/index",
-    "files": [
-      "static/chunks/realPages_index_js.js"
-    ]
   }
 }
